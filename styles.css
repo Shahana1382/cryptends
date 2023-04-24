@@ -1,0 +1,215 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+h2 {
+
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  color: grey;
+}
+
+.heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #34ebd8;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* download button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  border-radius: 100%;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.col-feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.awesome-img {
+  color: #34ebd8;
+  margin-bottom: 1rem;
+}
+
+.awesome-img:hover {
+  /* color: #ff4c68; */
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #34ebd8;
+    color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+   padding: 7% 15%;
+}
+/* press section */
+
+#press {
+  /* background-color:#ef8172; */
+  background-color: white;
+  padding: 3%;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#coin {
+  margin: 20px auto 50px auto;
+}
+
+#Widget {
+  margin: auto !important;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.container .coin-price{
+    margin: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    margin: 7px;
+}
+
+.container .coin-price .logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.container .coin-price .logo img{
+    width: 100%;
+}
+.container .coin-price div{
+    display: block;
+}
+.container .coin-price div h1{
+    font-size: 20px;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #34ebd8;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.cta-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.foot-img {
+  margin:1% 1%;
+}
+
+
+@media (max-width: 1024px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    transform: rotate(0);
+  }
+}

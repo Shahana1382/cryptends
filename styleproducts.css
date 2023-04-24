@@ -1,0 +1,30 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #34ebd8;
+}
+
+.title-image {
+    border-radius: 200%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.heading {
+  font-size: 3rem;
+  margin:50px 0px 0px 80px;
+}
+
+.product-head {
+  font-weight: bold;
+  margin:50px auto 50px auto;
+}
